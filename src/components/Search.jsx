@@ -24,6 +24,7 @@ const Search = ( { setBusqueda } ) => {
         }
     }
 
+    // Formulario busqueda
     return ( 
         <form onSubmit={handleSubmit} className="search">
             <input 

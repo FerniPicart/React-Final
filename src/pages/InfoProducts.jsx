@@ -36,6 +36,7 @@ const InfoProducts = ( ) => {
         minimumFractionDigits: 0
     })
 
+    // Pesentacion producto cuando entra a la compra.
     return (
         <>
             <div className="flex">

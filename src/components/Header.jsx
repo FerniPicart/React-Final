@@ -3,7 +3,7 @@ import Search from './Search';
 import logoMl from '../assets/img/logo-ml.png'
 import { Link } from 'react-router-dom'
 
-
+// boton busqueda y logo ML
 const Header = ( { setBusqueda } ) => {
     return ( 
         <div className="header">

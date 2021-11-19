@@ -10,7 +10,7 @@ const Products = ( {data} ) => {
     const thumbnail_id = data.thumbnail_id;
     const img = `https://http2.mlstatic.com/D_${thumbnail_id}-O.jpg`
 
-
+    // Presentacion de data, del CardProducts
     return ( 
         <>
             <div className="card-img">

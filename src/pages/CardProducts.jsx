@@ -4,7 +4,7 @@ import Products from '../components/Products';
 
 const CardProducts = ( { data, setItem } ) => {
 
-    return ( 
+    return (
         <div className="flex">                
             <div className="home">
                 {data.results.map( dat => (
